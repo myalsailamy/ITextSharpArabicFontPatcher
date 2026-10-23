@@ -50,7 +50,7 @@ namespace ArabicFontPatcher
             string dir = Path.GetDirectoryName(openFontDialog.FileName);
             string name = Path.GetFileNameWithoutExtension(openFontDialog.FileName);
             string ext = Path.GetExtension(openFontDialog.FileName);
-            txtOutput.Text = Path.Combine(dir, name + "-Patched" + ext);
+            txtOutput.Text = Path.Combine(dir, name + "-fixed" + ext);
         }
 
         private void btnBrowseOutput_Click(object sender, EventArgs e)
